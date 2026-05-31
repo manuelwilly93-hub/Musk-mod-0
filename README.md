@@ -27,6 +27,14 @@ function imprimirFormatoBonito(matriz) {
     }
 }
 
+function imprimirFormatoBonito(matriz) {
+console.log("[ [ " + matriz[0].join(", ") + " ],");
+
+for (let i = 1; i < matriz.length - 1; i++) {
+    console.log("  [ " + matriz[i].join(", ") + " ],");
+  }
+  console.log("  [ " + matriz[matriz.length - 1].join(", ") + " ] ]");
+}
 const n = parseInt(readline.question("Introduce el tamaño de la matriz cuadrada: "));
 
 if (isNaN(n) || n <= 0) {
