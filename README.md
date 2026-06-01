@@ -1,7 +1,7 @@
 # Musk-mod-0
 Prueba
 
-```const readline = require("readline-sync");
+``const readline = require("readline-sync");
 
 function crearMatriz(n) {
     const matriz = [];
@@ -32,4 +32,4 @@ if (isNaN(n) || n <= 0) {
     const matriz = crearMatriz(n);
     imprimirFormatoBonito(matriz);
 
-}```
+}``
