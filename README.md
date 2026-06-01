@@ -1,4 +1,5 @@
 # Musk-mod-0
+´´´ruby
 Prueba
 const readline = require("readline-sync");
 
@@ -44,5 +45,6 @@ if (isNaN(n) || n <= 0) {
     imprimirFormatoBonito(matriz);
 
 }
+´´´
 
 ## dar formato de impresion a numeros grandes
