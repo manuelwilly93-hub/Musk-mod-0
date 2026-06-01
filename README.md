@@ -1,5 +1,5 @@
 # Musk-mod-0
-Prueba
+```Prueba
 
 const readline = require("readline-sync");
 
@@ -32,4 +32,4 @@ if (isNaN(n) || n <= 0) {
     const matriz = crearMatriz(n);
     imprimirFormatoBonito(matriz);
 
-}
+}```
