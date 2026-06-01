@@ -1,6 +1,6 @@
 # Musk-mod-0
 Prueba
- ```ruby
+```ruby
 const readline = require("readline-sync");
 
 function crearMatriz(n) {
