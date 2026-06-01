@@ -1,7 +1,6 @@
 # Musk-mod-0
-```
 Prueba
-
+```
 const readline = require("readline-sync");
 
 function crearMatriz(n) {
