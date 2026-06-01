@@ -16,6 +16,18 @@ function crearMatriz(n) {
     }
     return matriz;
 }
+
+function imprimirFormatoBonito(matriz) {
+    // Imprimir la primera fila con padding
+    console.log("[ " + matriz[0].map(num => num.toString().padStart(3)).join(", ") + " ]");
+
+    // Imprimir las filas siguientes
+    for (let i = 1; i < matriz.length; i++) {
+        // Al imprimir, aplicamos el mismo padding a cada número de la fila
+        console.log(" " + matriz[i].map(num => num.toString().padStart(3)).join(", ") + " ");
+    }
+}
+
 function imprimirFormatoBonito(matriz) {
 console.log("[ [ " + matriz[0].join(", ") + " ],");
 
@@ -34,3 +46,5 @@ if (isNaN(n) || n <= 0) {
 
 }
 ```
+
+## dar formato de impresion a numeros grandes
